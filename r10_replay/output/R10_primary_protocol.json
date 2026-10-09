@@ -1,0 +1,29 @@
+{
+  "status": "new retrospective figure-derived 600-point recalculation, NOT recovery of historical optimizer",
+  "source": "Hysteresis_600pts.csv (figure digitized Nouri via Recchia)",
+  "source_sha256": "6765a4d5e9486d8f6866110d1a7a5f54a9a993f87fef456d8350c71a530b607e",
+  "predictor": "u recorded normalized sample-path index on figure-digitized/resampled 600-point curve; original digitization and resampling used plotted force; not prospective response-blind input for source figure",
+  "fit": "FCM six centers m=2 u-only; SC9/SC16 Chiu-like density/depletion ra=1/K, rb=1.25ra and sigma=ra/sqrt(8) u-only; ANFIS from freshly computed SC9 init, L-BFGS-B joint normalized loss maxiter=46",
+  "rationale": "Four architecture rule counts and FCM exponent inherited from H2; SC radii/widths tied to count with mathematical kernel matching (no response tuning); 46 maxiter inherited from archived manuscript",
+  "least_squares": "numpy SVD lstsq no ridge; reject rank deficiency rather than retune",
+  "validation": "fresh descriptive fullfit plus ten random 70/30 point holdouts seeds 0..9; training-only scales for prediction; joint train fit equal normalized channels (same source metric); no independent predictive validity asserted",
+  "metrics": "joint NRMSE = sqrt(mean((ex^2+ef^2)/2)); NMAE = mean((abs(ex)+abs(ef))/2); force NRMSE; area = |100*(Ahat-A)/A|, A signed trapezoidal integral of F against x (N-mm); closure=100*RMS normalized difference in predicted and observed end-to-start chords, observed chord zero; max uses normalized pointwise e",
+  "original_source_table7": "unresolved archived source values are excluded from conclusions, preserved separately verbatim",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  },
+  "fit_parameters": {
+    "FCM_m": 2,
+    "gaussian_width": "weighted FCM standard deviation or SC kernel matching",
+    "ANFIS_maxiter": 46,
+    "L_BFGS_B_bounds_centers": [
+      0,
+      1
+    ],
+    "L_BFGS_B_bounds_sigma": [
+      0.005,
+      0.2
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "source_csv": "Presliding_Figure_Code_Package/data/Hysteresis_600pts.csv",
+  "sha256": "6765a4d5e9486d8f6866110d1a7a5f54a9a993f87fef456d8350c71a530b607e",
+  "limits": "600 points digitized from published plotted experiment, not raw sensors; new fit not historical recovered model",
+  "new_fixed_premise_parameters": "from R3 known original source rounded premise centers/widths; consequent train all 600",
+  "new_adaptive_method": "L-BFGS-B maxiter=46, archived ANFIS centers used as initial values",
+  "metric": "RMS of equally weighted squared displacement and force normalized by their full 600-point channel ranges",
+  "area": "signed trapezoidal integral of force over displacement with percentage difference; not independent energy measurement",
+  "closure": "norm of difference between predicted and observed net endpoint displacement-force vector, normalized by full spans; NOT original historical closure metric"
+}

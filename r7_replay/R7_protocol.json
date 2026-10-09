@@ -1,0 +1,21 @@
+{
+  "n_conditions": 9,
+  "n_seeds": 10,
+  "fuzzy_methods_frozen": 4,
+  "simple_models": [
+    "Linear (clamped)",
+    "PCHIP (clamped)",
+    "Cubic spline (clamped)"
+  ],
+  "fixed_seed": 20261008,
+  "bootstrap_iterations": 50000,
+  "loop_samples": 571,
+  "training_n": 400,
+  "test_n": 171,
+  "eval_metric_normalization": "full loop span only for scoring, never model fitting",
+  "endpoint_policy": "clip test phase to min and max TRAIN phase; constant endpoint value",
+  "training_target_usage": "only train displacement and train force",
+  "seed_protocol": "numpy.default_rng(seed).permutation(571), seed=0..9, first 400 train",
+  "fuzzy_source": "frozen 360 archived R3 rows, not retrained",
+  "no_prospective_use_claim": true
+}

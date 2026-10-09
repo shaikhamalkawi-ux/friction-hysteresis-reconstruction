@@ -1,0 +1,18 @@
+{
+  "contains_digitized_pneumatic_curve": false,
+  "contains_original_mat_data": false,
+  "contains_third_party_images": false,
+  "excluded_entries": 53,
+  "excluded_reason_totals": {
+    "binary input or illustrative image not required for code-only release": 14,
+    "internal archive metadata replaced by public documentation": 2,
+    "original third-party measurement file": 33,
+    "private Drive source identifiers": 1,
+    "unreleased figure digitization or point-level derivative": 3
+  },
+  "included_files": 71,
+  "public_upload_note": "Public visibility does not certify permission for final licensed release or source-measurement redistribution.",
+  "readme": "README.md",
+  "source_r13_archive_sha256": "73f0fb5a19398a29d5febf2029757eb7fc2228053cb9de5984f8436b5051efc1",
+  "status": "PUBLIC_CODE_SNAPSHOT_AUTHOR_REVIEW_UNTAGGED"
+}

@@ -1,0 +1,10 @@
+metric,model_A,model_B,difference_A_minus_B,bootstrap_95_low,bootstrap_95_high,n_conditions
+reversal_force_nrmse,ANFIS-TS,Linear (clamped),0.00239459080505,0.00194384013206,0.00285577479332,9
+reversal_force_nrmse,SC16-TS,PCHIP (clamped),0.0032768752377,0.00229732677385,0.00412677498096,9
+reversal_force_nrmse,FCM-TS,Linear (clamped),0.00206243757073,0.00161355998495,0.00252155251932,9
+completed_area_error_pct,ANFIS-TS,Linear (clamped),0.0575285139649,0.0344335947003,0.0842476524554,9
+completed_area_error_pct,SC16-TS,PCHIP (clamped),0.0234619682108,0.00277059723508,0.04194461887,9
+completed_area_error_pct,FCM-TS,Linear (clamped),0.115200589429,0.0690189253242,0.181729633824,9
+nrmse_force,ANFIS-TS,Linear (clamped),0.0020535302356,0.00148476298889,0.00267856697106,9
+nrmse_force,SC16-TS,PCHIP (clamped),0.00231304859111,0.0019505166659,0.00266390224257,9
+nrmse_force,FCM-TS,Linear (clamped),0.0015080961658,0.00127386932835,0.00175361069322,9

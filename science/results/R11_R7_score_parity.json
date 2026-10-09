@@ -1,0 +1,8 @@
+{
+  "repeated_archived_scores": 630,
+  "maximum_absolute_error": {
+    "nrmse_pair": 9.952975943416931e-17,
+    "nrmse_force": 9.980080997729068e-17
+  },
+  "status": "PASS"
+}

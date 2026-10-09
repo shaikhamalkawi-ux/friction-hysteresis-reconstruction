@@ -1,0 +1,8 @@
+{
+  "gradient_finite_difference_max_abs": 8.14517151642713e-11,
+  "gradient_relative_max": 7.984955792310967e-08,
+  "two_gradient_cases_PASS": true,
+  "FCM_premise_u_only_PASS": true,
+  "SC16_premise_u_only_PASS": true,
+  "note": "The supplied u itself originated after plot-digitization; this does not make historical point holdouts prospective."
+}

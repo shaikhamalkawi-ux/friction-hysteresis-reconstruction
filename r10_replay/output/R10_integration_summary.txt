@@ -1,0 +1,3 @@
+Main R10 table new fitted results + new R10 split table + 2 equations and fullfit figure.
+Original Table 7 retained verbatim in Appendix for historical audit only; no source images modified.
+Input main bytes 112183; output main bytes 122658.

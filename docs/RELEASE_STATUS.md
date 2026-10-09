@@ -1,16 +1,16 @@
-# Public release checklist
+# Release status and author confirmations
 
-Status: **NOT YET APPROVED FOR PUBLIC REPRODUCIBILITY UPLOAD**.
+**Public repository state:** A code-and-derived-results snapshot is visible for author review. It is not a frozen software release. Public visibility is not evidence of coauthor approval, redistribution rights to source data, or acceptance of the manuscript.
 
-Before publishing the code and derived numerical tables:
+**Excluded:** third-party raw MAT measurements, historical copied figures, figure-derived primary 600-point curve, correspondence, and full internal research packages.
 
-- [ ] Confirm the six contributing authors agree to this public code/derived-output release.
-- [ ] Verify the precise licenses and attribution requirements for all third-party data and images.
-- [ ] Remove restricted or sensitive materials (raw measured files, copied illustrations, unpublished correspondence).
-- [ ] Run a clean reproduction after obtaining permitted inputs and verify frozen output hashes.
-- [ ] Agree on a software license and add a proper `LICENSE`.
-- [ ] Approve `CITATION.cff` authors and title.
-- [ ] Freeze a Git commit/tag before optional Zenodo archiving and DOI reservation.
-- [ ] Update the paper's Data and Code Availability paragraph only after the repository and archive are actually available.
+**Before tagging a software release or archiving to Zenodo:**
 
-An empty repository or documentation-only repository is **not** evidence of reproducibility.
+- [ ] All six coauthors approve the software and derived-result release and citation metadata.
+- [ ] License ownership and terms are established and a suitable LICENSE file is approved.
+- [ ] The original experimental-data permissions and figure rights are verified.
+- [ ] Independent clean-clone rerun succeeds after legitimate acquisition of source measurements.
+- [ ] A citable CITATION.cff is approved.
+- [ ] If a Zenodo DOI is minted, update the manuscript and repository with the *actual* DOI.
+
+Code visible on GitHub without a LICENSE does not grant an open-source license.

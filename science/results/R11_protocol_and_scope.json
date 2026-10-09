@@ -1,0 +1,61 @@
+[
+  {
+    "protocol_version": "H2_R11_EVIDENCE_EXTENSION",
+    "within_loop": {
+      "n_distinct_experimental_conditions": 9,
+      "n_seeds_each": 10,
+      "n_train": 400,
+      "n_test": 171,
+      "n_samples_per_loop": 571,
+      "reversal_neighborhood_halfwidth_indices": 20,
+      "tip_detection": "train-only observed x global minimum and global maximum index",
+      "area_metric": "closed signed polygon, completed curve replaces heldout x and force with fitted predictions, train observations retained",
+      "percentage_denominator": "absolute signed area of observed full loop, evaluation only",
+      "report": "mean per condition first, aggregate across nine conditions, bootstrap at condition level, B=50000, seed=20261009"
+    },
+    "time_ordered": {
+      "condition_names": [
+        "AF10",
+        "AF19",
+        "AF36"
+      ],
+      "cycles": {
+        "AF10": [
+          900,
+          304500,
+          609000,
+          892500,
+          1207500,
+          1522500
+        ],
+        "AF19": [
+          900,
+          199500,
+          399000,
+          609000,
+          787500,
+          997500
+        ],
+        "AF36": [
+          900,
+          315000,
+          630000,
+          945000,
+          1260000,
+          1575000
+        ]
+      },
+      "n_distinct_conditions": 3,
+      "n_later_cycles_each": 5,
+      "training": "one early cycle per condition, all 571 points; no later fit/recalibration",
+      "baseline": "unfitted phase-aligned early measurement used at all future target cycles",
+      "predictor": "known/common index i/570; no prediction of future phase alignment",
+      "status": "exploratory repeated timepoints within three experimental conditions, not 15 independent experimental subjects"
+    },
+    "blocked_gap": "reanalysis of all 27 published R7 within-loop 171-contiguous-point tests, no winner-only selection",
+    "no_new_pneumatic_seal_data": true,
+    "old_results_unchanged": true,
+    "not_physical_dissipation_certificate": true,
+    "requires_feature_availability": "predefined matched sample index and complete length of 571 points"
+  }
+]

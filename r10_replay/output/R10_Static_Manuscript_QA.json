@@ -1,0 +1,19 @@
+{
+  "result": "PASS",
+  "pages": 31,
+  "min_page_text_characters": 463,
+  "r9_figures_unchanged": 45,
+  "r10_figure_count": 46,
+  "bib_entries": 42,
+  "cited_entries": 42,
+  "missing_citations": [],
+  "latex_labels": 91,
+  "undefined_label_refs": [],
+  "numbered_equation_envs": 16,
+  "historical_Table7_preserved": true,
+  "r10_fullfit_table_independently_recomputed": true,
+  "source_csv_sha256": "6765a4d5e9486d8f6866110d1a7a5f54a9a993f87fef456d8350c71a530b607e",
+  "author_count": 6,
+  "corresponding_author": "Ghassan Malkawi",
+  "publication_status": "AUTHOR REVIEW: original historic source Table7 unverified; figure reuse permissions author-reported pending evidence"
+}

@@ -1,33 +1,41 @@
-# Friction Hysteresis Reconstruction
+# Friction hysteresis reconstruction — research reproducibility
 
-**Repository status: under preparation; not a finalized software or data release.**
+This code accompanies an **unpublished manuscript currently under author review** on within-loop friction-hysteresis reconstruction and cross-cycle transfer. The research compares four fixed Takagi–Sugeno fuzzy-model configurations, three elementary interpolation methods, and an unfitted measured-cycle template. This repository does **not** claim to introduce a new hysteresis state model or to validate pneumatic-seal prediction on independently measured pneumatic cycles.
 
-This repository has been created for the reproducibility materials associated with an unpublished study comparing fuzzy reconstruction models and simple interpolation for measured friction-hysteresis loops.
+## Research scope
 
-## Scientific scope
+- Nine selected experimental stainless-steel contact conditions (571 observations per measured loop) are used for within-loop point completion: 10 deterministic 70/30 splits per condition, seven model configurations, 630 model/split records.
+- Three distinct experimental contact conditions (AF10, AF19, AF36), six observed cycles each, are used for early-to-later-cycle analysis: five later cycles per condition, four fuzzy configurations plus the unfitted early-cycle template (75 condition/cycle/model records). Repeated cycles within each condition are **dependent**, not independent datasets.
+- A 600-point *figure-digitized* pneumatic historical example is retained as a separate illustration. The original recording and historical optimizer states were unavailable. New fitted numerical results are not a reproduction of the historical reported parameters.
 
-The planned analysis distinguishes:
-- **Within-loop point completion** on nine selected metallic-contact experimental conditions.
-- **Reversal-neighborhood and loop-area diagnostics** for those same measured loops.
-- **Time-ordered cycle-transfer assessments** on three distinct experimental conditions.
-- A separate **600-point figure-digitized pneumatic example** used for historical illustration, not as raw sensor data.
+All numerical comparisons are specific to the fixed experimental selection, reconstruction protocol, and input definition. A normalized position along a **known, phase-aligned recorded loop** is not an online physical memory state.
 
-Four Takagi–Sugeno fuzzy configurations are compared with linear, PCHIP and cubic-spline interpolation under matched reconstruction splits. The published claim is **not** that one family is universally superior, nor that metal-contact results independently validate pneumatic-seal control.
+## Data provenance and access
 
-## Current contents
+The contact measurements originate from Fantetti et al. (2024), [Data in Brief](https://doi.org/10.1016/j.dib.2024.110374) and the associated [Mendeley Data V1 archive](https://doi.org/10.17632/gy587m7gx7.1). Original MAT measurements and third-party illustrations are **not included** in this code-only candidate. Obtain the data from the original provider and follow its license and attribution requirements. The 600-point trace was manually digitized from a curve discussed by Recchia and attributed to Nouri; it is not the original sensor record and is also not redistributed here.
 
-This public repository currently contains only project documentation. The computational source and derived-result tables have been prepared and tested separately, but are **not yet publicly released**. The complete internal research archive, unlicensed figures, raw MAT measurements, and historical figure-digitized point series must not be uploaded here by default.
+See [docs/DATA_ACCESS.md](docs/DATA_ACCESS.md) for the exact registered input names and SHA-256 provenance certificates, and [docs/REPRODUCE.md](docs/REPRODUCE.md) for code execution instructions.
 
-## Data provenance
+## Quick verification without external data
 
-- Fantetti et al. (2024), *Data in Brief*: https://doi.org/10.1016/j.dib.2024.110374
-- Associated experimental Mendeley Data, V1: https://doi.org/10.17632/gy587m7gx7.1
-- Nouri (2004), original pneumatic friction experiment: https://doi.org/10.1016/S0019-0578(07)60031-7
+```bash
+python -m pip install -r requirements.txt
+python tools/verify_public_tables.py
+```
 
-See [data provenance](docs/DATA_SOURCES.md) and [release requirements](docs/RELEASE_STATUS.md).
+This checks structure, provenance manifest shape, and summary agreement in the included derived-result tables. It **does not** rerun model fitting without the separately acquired original measurements.
 
-## Release and citation
+## Full scientific reproduction (requires original inputs)
 
-This repository is a staging location, **not** a frozen, citable software release. No Zenodo DOI, repository tag, article acceptance, or software license is claimed. A verified code release and `CITATION.cff` will be added after coauthor and redistribution approval.
+```bash
+python tools/stage_external_inputs.py --source /path/to/extracted_Mendeley_archive
+python science/R11_reproduce_extended_evidence.py
+python science/R11_verify_frozen_evidence.py
+cd r10_replay && bash reproduce_R10_science.sh
+```
 
-**Correspondence:** gmalkawi@hct.ac.ae.
+The R10 historical example additionally requires a separately authorized local copy of the 600-point digitized trajectory: see `docs/DATA_ACCESS.md`. The R7 frozen cross-checks require the registered original input files, and the R3 trained fuzzy rows are retained as provenance records. See `docs/REPRODUCE.md` for details.
+
+## Publication and licensing status
+
+This repository contains a **public pre-release research-code snapshot uploaded at the request of the corresponding author**. Coauthor approval for the final software release and third-party rights review remain pending. No version-of-record software release, software license, Zenodo DOI, or final manuscript citation is asserted. Until the authors approve a software license, the absence of a license means no affirmative permission to reuse the software is granted by this repository. Contact the corresponding author for permission.

@@ -1,0 +1,41 @@
+{
+  "independent_evaluator": "scipy.integrate.trapezoid and midpoint sum; directly computed residual metrics",
+  "metric_comparisons": 16,
+  "metric_max_abs_difference": 6.017408793468348e-13,
+  "all_metric_checks_pass": true,
+  "fullfit_data_rows": 2400,
+  "split_rows": 80,
+  "split_validation_pass": true,
+  "behavioral_checks_pass": true,
+  "observed_signed_area_Nmm": 0.8749578673406824,
+  "per_model_check": [
+    {
+      "model": "FCM-TS",
+      "nrmse_joint": 0.03501238228488083,
+      "signed_area_pred_Nmm": 0.9033029407675752,
+      "area_error_pct": 3.2395929546920943,
+      "closure_error_pct": 2.383928264688648
+    },
+    {
+      "model": "SC9-TS",
+      "nrmse_joint": 0.009671113406147559,
+      "signed_area_pred_Nmm": 0.8460076331399536,
+      "area_error_pct": 3.3087575163726624,
+      "closure_error_pct": 1.5792016794335664
+    },
+    {
+      "model": "SC16-TS",
+      "nrmse_joint": 0.006491423434078808,
+      "signed_area_pred_Nmm": 0.8832088218880152,
+      "area_error_pct": 0.943011641510294,
+      "closure_error_pct": 0.3497377364333972
+    },
+    {
+      "model": "ANFIS-TS",
+      "nrmse_joint": 0.003872232848337027,
+      "signed_area_pred_Nmm": 0.852625053005111,
+      "area_error_pct": 2.552444542666832,
+      "closure_error_pct": 1.3326648254490092
+    }
+  ]
+}
