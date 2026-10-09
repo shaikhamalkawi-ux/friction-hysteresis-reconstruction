@@ -1,0 +1,21 @@
+# No source measurements or reproduced third-party illustrations by default
+*.mat
+*.mat.bin
+*.zip
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.pyc
+__pycache__/
+.venv/
+venv/
+.pytest_cache/
+*.aux
+*.log
+*.synctex.gz
+# Source data subtrees used only in private/local reproduction
+science/temporal_inputs/
+r7_replay/R3/03_Code_Replay/inputs/
+r7_replay/Presliding_Figure_Code_Package/data/
+r10_replay/source_R7/Presliding_Figure_Code_Package/data/
