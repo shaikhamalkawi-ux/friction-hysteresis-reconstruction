@@ -36,6 +36,10 @@ cd r10_replay && bash reproduce_R10_science.sh
 
 The R10 historical example additionally requires a separately authorized local copy of the 600-point digitized trajectory: see `docs/DATA_ACCESS.md`. The R7 frozen cross-checks require the registered original input files, and the R3 trained fuzzy rows are retained as provenance records. See `docs/REPRODUCE.md` for details.
 
-## Publication and licensing status
+## Software and research-data licenses
 
-This repository contains a **public pre-release research-code snapshot uploaded at the request of the corresponding author**. Coauthor approval for the final software release and third-party rights review remain pending. No version-of-record software release, software license, Zenodo DOI, or final manuscript citation is asserted. Until the authors approve a software license, the absence of a license means no affirmative permission to reuse the software is granted by this repository. Contact the corresponding author for permission.
+The **original H2 research software currently present in this repository** is released under the [MIT License](LICENSE) following author-group approval reported by the project lead. This license applies to the authors' original program code and documentation, **not** to measurements, figures, publications or other material supplied by third parties. See [DATA_AND_CODE_RIGHTS.md](DATA_AND_CODE_RIGHTS.md).
+
+This is a historical, preliminary reproducibility snapshot. **It is not a complete reproduction package for the later Machines EP4 manuscript** or for the separate Hannover friction-loop work study. Do not cite it as proof that those later results have been independently rerun. A later version-specific package and stable citation will need to be identified before a journal-facing Data Availability Statement can claim it is publicly archived.
+
+The raw source data, any original third-party images and digitized example traces are excluded. Access external measurements from their publishers, comply with each original data license, and cite the original providers.
