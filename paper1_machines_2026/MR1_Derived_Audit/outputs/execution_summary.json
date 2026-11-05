@@ -1,0 +1,30 @@
+{
+  "P1": {
+    "scope": "post-outcome derived-ledger; 54 dependent cycles in 9 recordings; not independent experiments",
+    "rows": 2430,
+    "recordings": 9,
+    "cycles_per_recording": 6,
+    "gap_settings": 12,
+    "cubic_dense_wins": 3,
+    "cubic_gap_wins": 0,
+    "gap_winners": {
+      "PCHIP": 8,
+      "Linear": 4
+    },
+    "cubic_to_retrospective_local_best_ratio_min": 1.3629078259779632,
+    "cubic_to_retrospective_local_best_ratio_max": 2.900516172243112,
+    "cubic_to_retrospective_local_best_ratio_median": 2.274652282935058,
+    "mean_absolute_nrmse_excess": 0.15971676109081281,
+    "cubic_to_fixed_pchip_ratio_of_pooled_recording_means": 2.257979425754317,
+    "leave_one_recording_out_settings": 108,
+    "loo_cubic_wins": 0,
+    "loo_ratio_min": 1.307416014439511,
+    "loo_ratio_max": 3.1389499029676644,
+    "independent_nested_mean_max_abs_error": 2.7755575615628914e-17
+  },
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  }
+}

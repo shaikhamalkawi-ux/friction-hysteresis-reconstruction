@@ -1,3 +1,9 @@
+## H2 Machines paper (2026) — reproducible companion
+
+[Start here: code, derived results and verification](paper1_machines_2026/START_HERE.md) for *From Missing Points to Later Cycles: Limits of Friction-Hysteresis Reconstruction*. This new paper companion is separate from the earlier research releases, whose history is retained.
+
+---
+
 # Friction hysteresis reconstruction — research reproducibility
 
 This code accompanies an **unpublished manuscript currently under author review** on within-loop friction-hysteresis reconstruction and cross-cycle transfer. The research compares four fixed Takagi–Sugeno fuzzy-model configurations, three elementary interpolation methods, and an unfitted measured-cycle template. This repository does **not** claim to introduce a new hysteresis state model or to validate pneumatic-seal prediction on independently measured pneumatic cycles.

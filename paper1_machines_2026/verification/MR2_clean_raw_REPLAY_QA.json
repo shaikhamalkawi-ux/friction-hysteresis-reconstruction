@@ -1,0 +1,184 @@
+{
+  "mode": "raw",
+  "paper": "Machines",
+  "scientific_scope": "ARTS cycle-out, density and cross-geometry audits only",
+  "raw_replay": true,
+  "source_identity": [
+    {
+      "recording": "dataset2_1Hz_0.5inch_30lb",
+      "source_path": "data/dataset-2/characterization datasets/1Hz30lbtension0.5amplitude.json",
+      "git_blob_sha1": "36caaa9148623aa87f663e1e90a5be040ea7636a",
+      "sha256": "8d8c46dcbed3889ae8dbe6ff3698d67e6453349ab728a8915b22680453c4d277"
+    },
+    {
+      "recording": "dataset2_1Hz_1inch_30lb",
+      "source_path": "data/dataset-2/characterization datasets/1Hz30lbtension1amplitude.json",
+      "git_blob_sha1": "0c8bb731101ddcfe3162ede84af875f83215d4d8",
+      "sha256": "ed02a98a96369937851bed92b4e5e92e34d98ceebd4db81d5bd65d5b77c4bc91"
+    },
+    {
+      "recording": "dataset2_1Hz_1.5inch_30lb",
+      "source_path": "data/dataset-2/characterization datasets/1Hz30lbtension1.5amplitude.json",
+      "git_blob_sha1": "3f79f98909571befaccbd3e07cefd7abbb92c208",
+      "sha256": "1a894d5857486ee56f363343c3216d2fb300c2fc8777439cca8ee2d02a7dd35c"
+    },
+    {
+      "recording": "dataset3_1Hz_0.5inch_30lb",
+      "source_path": "data/dataset-3/characterization tests/1Hz30lbtension0.5amplitude.json",
+      "git_blob_sha1": "66670a0ebdea5bc165bed9cd57668a582e669a35",
+      "sha256": "c7d61217aaa9b08def45c9baeccd8b0a9fb318c8a0c204b8314c42ff104556bb"
+    },
+    {
+      "recording": "dataset3_1Hz_1inch_30lb",
+      "source_path": "data/dataset-3/characterization tests/1Hz30lbtension1amplitude.json",
+      "git_blob_sha1": "2cc29bb16fa30db31204857ade395c09a93fb681",
+      "sha256": "3b4a3f2a1e1b506f39201abbc5def092c6c27103f00e8fcf0e7a06411c38b31c"
+    },
+    {
+      "recording": "dataset3_1Hz_1.5inch_30lb",
+      "source_path": "data/dataset-3/characterization tests/1Hz30lbtension1.5amplitude.json",
+      "git_blob_sha1": "852561f8388fb82bc138374cf6c2dfbcbf5b2c09",
+      "sha256": "3ef5b8e861011706f5ccc83e54aed78428b1b09b191af7547ce54ae838d0a1ce"
+    },
+    {
+      "recording": "dataset2_2Hz_0.5inch_30lb",
+      "source_path": "data/dataset-2/characterization datasets/2Hz30lbtension0.5amplitude.json",
+      "git_blob_sha1": "44720eabbbab71bab9ab5ff6a5102fb272be45ed",
+      "sha256": "68ed9bd269da97845b4b94534a3ed48651022490cf337dacd2eaaf4abb2df2ed"
+    },
+    {
+      "recording": "dataset3_2Hz_0.5inch_30lb",
+      "source_path": "data/dataset-3/characterization tests/2Hz30lbtension0.5amplitude.json",
+      "git_blob_sha1": "45e2955fbb0fe41cc01d2ba1f4a620f060e9c0d1",
+      "sha256": "b8e4593d9df2c2db3576599d16908abad620bb329c533bfec321e84ffd10466f"
+    },
+    {
+      "recording": "dataset2_2Hz_0.5inch_36lb",
+      "source_path": "data/dataset-2/characterization datasets/2Hz36lbtension0.5amplitude.json",
+      "git_blob_sha1": "bfc5b220a2a786475be38bbcd341904de8be528c",
+      "sha256": "30db5d48cbf6eed80e2838e5185a0b26eb9108aac64fc2dcdf0e2dcbedd7c4be"
+    }
+  ],
+  "tables": {
+    "cycle_out_all_scores.csv": {
+      "status": "PASS",
+      "rows": 2430,
+      "columns": 14,
+      "rtol": 1e-12,
+      "atol": 1e-12,
+      "maximum_absolute_differences": {
+        "cycle_index": 0.0,
+        "gap_fraction": 0.0,
+        "gap_location": 0.0,
+        "train_points": 0.0,
+        "test_points": 0.0,
+        "force_nrmse": 0.0,
+        "displacement_nrmse": 0.0,
+        "joint_nrmse": 0.0
+      }
+    },
+    "cycle_out_density_scores.csv": {
+      "status": "PASS",
+      "rows": 2916,
+      "columns": 10,
+      "rtol": 1e-12,
+      "atol": 1e-12,
+      "maximum_absolute_differences": {
+        "cycle": 0.0,
+        "seed": 0.0,
+        "n_train": 0.0,
+        "n_test": 0.0,
+        "force_nrmse": 0.0
+      }
+    },
+    "cycle_out_condition_first.csv": {
+      "status": "PASS",
+      "rows": 45,
+      "columns": 9,
+      "rtol": 1e-12,
+      "atol": 1e-12,
+      "maximum_absolute_differences": {
+        "recordings": 0.0,
+        "cycles_per_recording": 0.0,
+        "mean_recording_first_force_nrmse": 0.0,
+        "median_recording_first_force_nrmse": 0.0,
+        "largest_recording_first_force_nrmse": 0.0,
+        "recording_wins": 0.0
+      }
+    },
+    "cycle_out_density_summary.csv": {
+      "status": "PASS",
+      "rows": 18,
+      "columns": 8,
+      "rtol": 1e-12,
+      "atol": 1e-12,
+      "maximum_absolute_differences": {
+        "files": 0.0,
+        "cycles_per_file": 0.0,
+        "seeds_per_cycle": 0.0,
+        "mean_file_first_force_nrmse": 0.0,
+        "median_file_first_force_nrmse": 0.0,
+        "worst_file_first_force_nrmse": 0.0
+      }
+    },
+    "overall_recording_first.csv": {
+      "status": "PASS",
+      "rows": 6,
+      "columns": 8,
+      "rtol": 1e-12,
+      "atol": 1e-12,
+      "maximum_absolute_differences": {
+        "recordings": 0.0,
+        "mean_force_nrmse": 0.0,
+        "median_file_mean_force_nrmse": 0.0,
+        "mean_dataset2": 0.0,
+        "mean_dataset3": 0.0
+      }
+    }
+  },
+  "source_recordings": 9,
+  "cycle_mask_model_rows": 2430,
+  "density_rows": 2916,
+  "audit_tables": {
+    "P1_gap_transfer_penalty.csv": {
+      "status": "PASS",
+      "rows": 12,
+      "columns": 9,
+      "rtol": 1e-12,
+      "atol": 1e-12,
+      "maximum_absolute_differences": {
+        "linear": 0.0,
+        "pchip": 0.0,
+        "natural_cubic": 0.0,
+        "retrospective_local_best_error": 0.0,
+        "dense_winner_ratio": 0.0,
+        "dense_winner_excess": 0.0,
+        "recordings_cubic_worse_than_local_best": 0.0
+      }
+    },
+    "P1_leave_one_recording_out.csv": {
+      "status": "PASS",
+      "rows": 108,
+      "columns": 4,
+      "rtol": 1e-12,
+      "atol": 1e-12,
+      "maximum_absolute_differences": {
+        "cubic_to_local_best_ratio": 0.0
+      }
+    },
+    "P1_recording_first_errors.csv": {
+      "status": "PASS",
+      "rows": 135,
+      "columns": 6,
+      "rtol": 1e-12,
+      "atol": 1e-12,
+      "maximum_absolute_differences": {
+        "Linear": 0.0,
+        "Natural cubic": 0.0,
+        "PCHIP": 0.0
+      }
+    }
+  },
+  "status": "SOURCE_TO_ARTS_RESULT_PASS",
+  "not_claimed": "Complete replay of all PoliTO/Imperial fuzzy-model, chronological or auxiliary analyses"
+}

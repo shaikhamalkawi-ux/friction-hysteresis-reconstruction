@@ -1,0 +1,70 @@
+{
+  "repository": "ARTS-Laboratory/Dataset-Friction-Damper-with-Backlash",
+  "repository_commit": "0e09aa9d950760277e31c08cd93fd01f39a5af09",
+  "license": "CC BY-SA 4.0",
+  "records": [
+    {
+      "case": "dataset2_1Hz_0.5inch_30lb",
+      "source_path": "data/dataset-2/characterization datasets/1Hz30lbtension0.5amplitude.json",
+      "git_blob_sha1": "36caaa9148623aa87f663e1e90a5be040ea7636a",
+      "records": 7169,
+      "samples_per_cycle": 1024
+    },
+    {
+      "case": "dataset2_1Hz_1inch_30lb",
+      "source_path": "data/dataset-2/characterization datasets/1Hz30lbtension1amplitude.json",
+      "git_blob_sha1": "0c8bb731101ddcfe3162ede84af875f83215d4d8",
+      "records": 7169,
+      "samples_per_cycle": 1024
+    },
+    {
+      "case": "dataset2_1Hz_1.5inch_30lb",
+      "source_path": "data/dataset-2/characterization datasets/1Hz30lbtension1.5amplitude.json",
+      "git_blob_sha1": "3f79f98909571befaccbd3e07cefd7abbb92c208",
+      "records": 7169,
+      "samples_per_cycle": 1024
+    },
+    {
+      "case": "dataset3_1Hz_0.5inch_30lb",
+      "source_path": "data/dataset-3/characterization tests/1Hz30lbtension0.5amplitude.json",
+      "git_blob_sha1": "66670a0ebdea5bc165bed9cd57668a582e669a35",
+      "records": 7169,
+      "samples_per_cycle": 1024
+    },
+    {
+      "case": "dataset3_1Hz_1inch_30lb",
+      "source_path": "data/dataset-3/characterization tests/1Hz30lbtension1amplitude.json",
+      "git_blob_sha1": "2cc29bb16fa30db31204857ade395c09a93fb681",
+      "records": 7169,
+      "samples_per_cycle": 1024
+    },
+    {
+      "case": "dataset3_1Hz_1.5inch_30lb",
+      "source_path": "data/dataset-3/characterization tests/1Hz30lbtension1.5amplitude.json",
+      "git_blob_sha1": "852561f8388fb82bc138374cf6c2dfbcbf5b2c09",
+      "records": 7169,
+      "samples_per_cycle": 1024
+    },
+    {
+      "case": "dataset2_2Hz_0.5inch_30lb",
+      "source_path": "data/dataset-2/characterization datasets/2Hz30lbtension0.5amplitude.json",
+      "git_blob_sha1": "44720eabbbab71bab9ab5ff6a5102fb272be45ed",
+      "records": 3585,
+      "samples_per_cycle": 512
+    },
+    {
+      "case": "dataset3_2Hz_0.5inch_30lb",
+      "source_path": "data/dataset-3/characterization tests/2Hz30lbtension0.5amplitude.json",
+      "git_blob_sha1": "45e2955fbb0fe41cc01d2ba1f4a620f060e9c0d1",
+      "records": 3585,
+      "samples_per_cycle": 512
+    },
+    {
+      "case": "dataset2_2Hz_0.5inch_36lb",
+      "source_path": "data/dataset-2/characterization datasets/2Hz36lbtension0.5amplitude.json",
+      "git_blob_sha1": "bfc5b220a2a786475be38bbcd341904de8be528c",
+      "records": 3585,
+      "samples_per_cycle": 512
+    }
+  ]
+}

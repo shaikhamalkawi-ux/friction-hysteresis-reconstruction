@@ -1,0 +1,49 @@
+{
+  "mode": "derived",
+  "paper": "Machines",
+  "scientific_scope": "ARTS cycle-out, density and cross-geometry audits only",
+  "raw_replay": false,
+  "source_identity": [],
+  "audit_tables": {
+    "P1_gap_transfer_penalty.csv": {
+      "status": "PASS",
+      "rows": 12,
+      "columns": 9,
+      "rtol": 1e-12,
+      "atol": 1e-12,
+      "maximum_absolute_differences": {
+        "linear": 0.0,
+        "pchip": 0.0,
+        "natural_cubic": 0.0,
+        "retrospective_local_best_error": 0.0,
+        "dense_winner_ratio": 0.0,
+        "dense_winner_excess": 0.0,
+        "recordings_cubic_worse_than_local_best": 0.0
+      }
+    },
+    "P1_leave_one_recording_out.csv": {
+      "status": "PASS",
+      "rows": 108,
+      "columns": 4,
+      "rtol": 1e-12,
+      "atol": 1e-12,
+      "maximum_absolute_differences": {
+        "cubic_to_local_best_ratio": 0.0
+      }
+    },
+    "P1_recording_first_errors.csv": {
+      "status": "PASS",
+      "rows": 135,
+      "columns": 6,
+      "rtol": 1e-12,
+      "atol": 1e-12,
+      "maximum_absolute_differences": {
+        "Linear": 0.0,
+        "Natural cubic": 0.0,
+        "PCHIP": 0.0
+      }
+    }
+  },
+  "status": "DERIVED_ONLY_PASS",
+  "not_claimed": "Complete replay of all PoliTO/Imperial fuzzy-model, chronological or auxiliary analyses"
+}

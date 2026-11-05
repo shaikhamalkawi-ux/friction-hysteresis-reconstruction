@@ -1,0 +1,67 @@
+{
+  "cycle_out_all_scores.csv": {
+    "rows": 2430,
+    "PASS": true,
+    "max_absolute_difference": 0.0,
+    "numeric_differences": {
+      "cycle_index": 0.0,
+      "gap_fraction": 0.0,
+      "gap_location": 0.0,
+      "train_points": 0.0,
+      "test_points": 0.0,
+      "force_nrmse": 0.0,
+      "displacement_nrmse": 0.0,
+      "joint_nrmse": 0.0
+    }
+  },
+  "cycle_out_density_scores.csv": {
+    "rows": 2916,
+    "PASS": true,
+    "max_absolute_difference": 0.0,
+    "numeric_differences": {
+      "cycle": 0.0,
+      "seed": 0.0,
+      "n_train": 0.0,
+      "n_test": 0.0,
+      "force_nrmse": 0.0
+    }
+  },
+  "cycle_out_condition_first.csv": {
+    "rows": 45,
+    "PASS": true,
+    "max_absolute_difference": 0.0,
+    "numeric_differences": {
+      "recordings": 0.0,
+      "cycles_per_recording": 0.0,
+      "mean_recording_first_force_nrmse": 0.0,
+      "median_recording_first_force_nrmse": 0.0,
+      "largest_recording_first_force_nrmse": 0.0,
+      "recording_wins": 0.0
+    }
+  },
+  "cycle_out_density_summary.csv": {
+    "rows": 18,
+    "PASS": true,
+    "max_absolute_difference": 0.0,
+    "numeric_differences": {
+      "files": 0.0,
+      "cycles_per_file": 0.0,
+      "seeds_per_cycle": 0.0,
+      "mean_file_first_force_nrmse": 0.0,
+      "median_file_first_force_nrmse": 0.0,
+      "worst_file_first_force_nrmse": 0.0
+    }
+  },
+  "overall_recording_first.csv": {
+    "rows": 6,
+    "PASS": true,
+    "max_absolute_difference": 0.0,
+    "numeric_differences": {
+      "recordings": 0.0,
+      "mean_force_nrmse": 0.0,
+      "median_file_mean_force_nrmse": 0.0,
+      "mean_dataset2": 0.0,
+      "mean_dataset3": 0.0
+    }
+  }
+}

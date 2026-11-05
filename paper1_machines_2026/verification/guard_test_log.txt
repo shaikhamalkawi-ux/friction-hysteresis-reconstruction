@@ -1,0 +1,17 @@
+
+test_boolean_mismatch_is_rejected (__main__.Guards.test_boolean_mismatch_is_rejected) ... ok
+test_column_mismatch_is_rejected (__main__.Guards.test_column_mismatch_is_rejected) ... ok
+test_corrupt_source_zip_rejected (__main__.Guards.test_corrupt_source_zip_rejected) ... ok
+test_disabled_assertions_rejected (__main__.Guards.test_disabled_assertions_rejected) ... ok
+test_exact_comparison_pass (__main__.Guards.test_exact_comparison_pass) ... ok
+test_existing_output_rejected (__main__.Guards.test_existing_output_rejected) ... ok
+test_missing_raw_input_rejected (__main__.Guards.test_missing_raw_input_rejected) ... ok
+test_missing_staging_inputs_rejected (__main__.Guards.test_missing_staging_inputs_rejected) ... ok
+test_missingness_mismatch_is_rejected (__main__.Guards.test_missingness_mismatch_is_rejected) ... ok
+test_numerical_mismatch_is_rejected (__main__.Guards.test_numerical_mismatch_is_rejected) ... ok
+test_untrusted_manifest_rejected (__main__.Guards.test_untrusted_manifest_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 5.132s
+
+OK

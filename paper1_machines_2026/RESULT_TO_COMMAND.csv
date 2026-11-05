@@ -1,0 +1,5 @@
+result_component,execution_mode,scope,completed_verification,boundary
+ARTS cycle-out point/gap scores,raw,9 recordings / 2430 rows,PASS: exact checked values,No change in source data or estimators
+ARTS density scores,raw,9 recordings / 2916 rows,PASS: exact checked values,"54 dependent cycles, not independent trials"
+Cross-geometry ratio and omissions,raw then regenerated scores; or derived-only,12 gap settings and 108 repeated omission summaries,PASS,Comparator choice is retrospective; fixed PCHIP contrast retained
+PoliTO/Imperial primary and auxiliary analyses,historical repository / source-specific legacy materials,Not fully covered by portable entry point,NOT CERTIFIED AS COMPLETE RAW REPLAY,Do not infer whole-manuscript reproducibility from ARTS pass

@@ -1,0 +1,7 @@
+task,model,recordings,score_per_recording,mean_force_nrmse,median_file_mean_force_nrmse,mean_dataset2,mean_dataset3
+random,Linear,9,mean over 6 cycles and 3 masks (random) or 12 masks (gap),0.00589676627467969,0.006021979001483759,0.005616193712777421,0.006247481977057528
+random,PCHIP,9,mean over 6 cycles and 3 masks (random) or 12 masks (gap),0.004403196079269334,0.004337920292134727,0.00420648194819728,0.004649088743109402
+random,Natural cubic,9,mean over 6 cycles and 3 masks (random) or 12 masks (gap),0.0029850544033044662,0.0030537216788933176,0.0028014849767001673,0.003214516186559841
+gap,Linear,9,mean over 6 cycles and 3 masks (random) or 12 masks (gap),0.12889512818148602,0.12692547311436156,0.12844157162211123,0.12946207388070452
+gap,PCHIP,9,mean over 6 cycles and 3 masks (random) or 12 masks (gap),0.12553119340081523,0.12274934238199431,0.12467790648447534,0.1265978020462401
+gap,Natural cubic,9,mean over 6 cycles and 3 masks (random) or 12 masks (gap),0.2834468519894268,0.2531194838079069,0.26790495755684807,0.30287422003015035

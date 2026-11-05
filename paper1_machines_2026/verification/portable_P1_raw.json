@@ -1,0 +1,128 @@
+{
+  "mode": "raw",
+  "paper": "Machines",
+  "scientific_scope": "ARTS cycle-out, density and cross-geometry audits only",
+  "raw_replay": true,
+  "tables": {
+    "cycle_out_all_scores.csv": {
+      "status": "PASS",
+      "rows": 2430,
+      "columns": 14,
+      "rtol": 1e-12,
+      "atol": 1e-12,
+      "maximum_absolute_differences": {
+        "cycle_index": 0.0,
+        "gap_fraction": 0.0,
+        "gap_location": 0.0,
+        "train_points": 0.0,
+        "test_points": 0.0,
+        "force_nrmse": 0.0,
+        "displacement_nrmse": 0.0,
+        "joint_nrmse": 0.0
+      }
+    },
+    "cycle_out_density_scores.csv": {
+      "status": "PASS",
+      "rows": 2916,
+      "columns": 10,
+      "rtol": 1e-12,
+      "atol": 1e-12,
+      "maximum_absolute_differences": {
+        "cycle": 0.0,
+        "seed": 0.0,
+        "n_train": 0.0,
+        "n_test": 0.0,
+        "force_nrmse": 0.0
+      }
+    },
+    "cycle_out_condition_first.csv": {
+      "status": "PASS",
+      "rows": 45,
+      "columns": 9,
+      "rtol": 1e-12,
+      "atol": 1e-12,
+      "maximum_absolute_differences": {
+        "recordings": 0.0,
+        "cycles_per_recording": 0.0,
+        "mean_recording_first_force_nrmse": 0.0,
+        "median_recording_first_force_nrmse": 0.0,
+        "largest_recording_first_force_nrmse": 0.0,
+        "recording_wins": 0.0
+      }
+    },
+    "cycle_out_density_summary.csv": {
+      "status": "PASS",
+      "rows": 18,
+      "columns": 8,
+      "rtol": 1e-12,
+      "atol": 1e-12,
+      "maximum_absolute_differences": {
+        "files": 0.0,
+        "cycles_per_file": 0.0,
+        "seeds_per_cycle": 0.0,
+        "mean_file_first_force_nrmse": 0.0,
+        "median_file_first_force_nrmse": 0.0,
+        "worst_file_first_force_nrmse": 0.0
+      }
+    },
+    "overall_recording_first.csv": {
+      "status": "PASS",
+      "rows": 6,
+      "columns": 8,
+      "rtol": 1e-12,
+      "atol": 1e-12,
+      "maximum_absolute_differences": {
+        "recordings": 0.0,
+        "mean_force_nrmse": 0.0,
+        "median_file_mean_force_nrmse": 0.0,
+        "mean_dataset2": 0.0,
+        "mean_dataset3": 0.0
+      }
+    }
+  },
+  "source_recordings": 9,
+  "cycle_mask_model_rows": 2430,
+  "density_rows": 2916,
+  "audit_tables": {
+    "P1_gap_transfer_penalty.csv": {
+      "status": "PASS",
+      "rows": 12,
+      "columns": 9,
+      "rtol": 1e-12,
+      "atol": 1e-12,
+      "maximum_absolute_differences": {
+        "linear": 0.0,
+        "pchip": 0.0,
+        "natural_cubic": 0.0,
+        "retrospective_local_best_error": 0.0,
+        "dense_winner_ratio": 0.0,
+        "dense_winner_excess": 0.0,
+        "recordings_cubic_worse_than_local_best": 0.0
+      }
+    },
+    "P1_leave_one_recording_out.csv": {
+      "status": "PASS",
+      "rows": 108,
+      "columns": 4,
+      "rtol": 1e-12,
+      "atol": 1e-12,
+      "maximum_absolute_differences": {
+        "cubic_to_local_best_ratio": 0.0
+      }
+    },
+    "P1_recording_first_errors.csv": {
+      "status": "PASS",
+      "rows": 135,
+      "columns": 6,
+      "rtol": 1e-12,
+      "atol": 1e-12,
+      "maximum_absolute_differences": {
+        "Linear": 0.0,
+        "Natural cubic": 0.0,
+        "PCHIP": 0.0
+      }
+    }
+  },
+  "status": "SOURCE_TO_ARTS_RESULT_PASS",
+  "not_claimed": "Complete replay of all PoliTO/Imperial fuzzy-model, chronological or auxiliary analyses"
+}
