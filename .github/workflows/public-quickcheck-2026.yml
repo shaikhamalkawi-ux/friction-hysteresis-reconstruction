@@ -1,0 +1,21 @@
+name: Public one-command check — H2 Machines
+on:
+  push:
+    paths:
+      - 'paper1_machines_2026/public_quickcheck.py'
+      - '.github/workflows/public-quickcheck-2026.yml'
+  pull_request:
+  workflow_dispatch:
+jobs:
+  public-check:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: paper1_machines_2026
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install -r requirements.txt
+      - run: python public_quickcheck.py
