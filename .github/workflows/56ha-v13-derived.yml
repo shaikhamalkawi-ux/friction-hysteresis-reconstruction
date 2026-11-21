@@ -1,0 +1,21 @@
+name: 56HA V13 Imperial derived-ledger check
+on:
+  push:
+    paths:
+      - 'paper1_machines_2026/56ha_v13_ep2/**'
+      - '.github/workflows/56ha-v13-derived.yml'
+  pull_request:
+    paths:
+      - 'paper1_machines_2026/56ha_v13_ep2/**'
+      - '.github/workflows/56ha-v13-derived.yml'
+  workflow_dispatch:
+
+jobs:
+  check-imperial27:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python paper1_machines_2026/56ha_v13_ep2/verify_derived.py

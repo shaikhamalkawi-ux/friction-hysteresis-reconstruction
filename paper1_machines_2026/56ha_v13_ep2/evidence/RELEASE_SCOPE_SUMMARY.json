@@ -1,0 +1,28 @@
+{
+  "source": "56HA G5 Imperial27 source replay documented 2026-11-21; numerical data imported without recomputing models",
+  "source_provider": "Fantetti et al. Mendeley Data V1; https://doi.org/10.17632/gy587m7gx7.1",
+  "study": "Choosing Reconstruction Methods for Missing Intervals in Friction-Hysteresis Tests: Accuracy and Numerical Stability",
+  "scientific_manuscript": "V13 (locked)",
+  "production": "File5 EP2 (locked before repository synchronization)",
+  "primary_rows": 756,
+  "post_outcome_tenseed_rows": 1890,
+  "point_gap_changed_primary": 20,
+  "point_gap_changed_tenseed": 19,
+  "median_gap_regret": 0.03469866134152921,
+  "max_gap_regret": 0.6062264174856786,
+  "original_source_sha256_matches_reported": 27,
+  "original_source_rerun_in_this_package": false,
+  "contents": "Expected and previously replayed score tables, deterministic derived-only consistency test, per-condition geometric outcome, source hash references; no raw measurements",
+  "fixed_metrics": [
+    "E_joint",
+    "E_force",
+    "E_x"
+  ],
+  "not_claimed": [
+    "New raw-source replay performed in this release",
+    "Complete replay of all manuscript experiments",
+    "Zenodo or permanent DOI",
+    "Coauthor release sign-off",
+    "Validation of new physical apparatus"
+  ]
+}

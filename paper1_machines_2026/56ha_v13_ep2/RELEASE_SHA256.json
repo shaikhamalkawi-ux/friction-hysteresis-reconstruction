@@ -1,0 +1,9 @@
+{
+  "expected/P1_Imperial27_SevenModel_FourMasks.csv": "78a543c56568f5c735f13e15f5da490dc129a91cdc4b914f9ccb1157f6a9087c",
+  "expected/P1_Imperial27_PostOutcome_TenSeed_PointMasks.csv": "0e8056135c7f26e7388cc4477b45402aae88bbe83823654d41b39d4cdf90a7b5",
+  "replayed/P1_Imperial27_SevenModel_FourMasks.csv": "1b9ffe73f334f3ac50982c98c0de8ed23f2451f9fd7df692e2d550680ca51faa",
+  "replayed/P1_Imperial27_PostOutcome_TenSeed_PointMasks.csv": "0e89c448bf9dc0d17b36969810ed1ec708b01d8becdf12bce3e5a5b06570c1a2",
+  "evidence/Imperial27_casewise_geometry_and_regret.csv": "add8da73dd466389af9cd8476abd92af5a236fe3741d8b87cba9ebca2c296f18",
+  "evidence/RELEASE_SCOPE_SUMMARY.json": "fd17980707b40e676450cecccd63ff87b93d2a0c27795aa7dd4d0b6ef81bcc63",
+  "provenance/provider_source_sha256.csv": "3850e45e838663d3cb01888ecd193e102b13e59a799b7b53b59eddd371cfd722"
+}
