@@ -1,8 +1,8 @@
 # 56HA / Machines Paper A — V13 File5-EP2 public derived-score companion
 
-**Paper:** *Choosing Reconstruction Methods for Missing Intervals in Friction-Hysteresis Tests: Accuracy and Numerical Stability* (author review; journal submission **HOLD**).
+**Paper:** *When Missing-Data Geometry Changes Reconstruction-Method Choice in Friction-Hysteresis Tests* (author review; journal submission **HOLD**).
 
-This **additive package** updates the original historical GitHub research repository without deleting or modifying its prior code, data, or releases. The scientific baseline is 56HA **V13**; EP2 was an editorial/figure-label correction only.
+This **additive package** updates the original historical GitHub research repository without deleting or modifying its prior code, data, or releases. The scientific baseline is 56HA **V13**; EP2 was an editorial/figure-label correction only. The later File5-EP4 revision changes the editorial working title and source-overlap narrative, not these immutable numerical ledgers. The original companion filename and source-hash manifest remain deliberately unchanged.
 
 ## What is actually in this folder?
 
