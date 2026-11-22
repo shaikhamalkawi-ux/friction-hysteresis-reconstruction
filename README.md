@@ -1,6 +1,6 @@
 ## Current 56HA / Machines Paper A — V13 (author review)
 
-**Current study:** *Choosing Reconstruction Methods for Missing Intervals in Friction-Hysteresis Tests: Accuracy and Numerical Stability*.
+**Current study:** *When Missing-Data Geometry Changes Reconstruction-Method Choice in Friction-Hysteresis Tests*.
 The [56HA V13 File5-EP2 Imperial27 public derived-score companion](paper1_machines_2026/56ha_v13_ep2/README.md) provides retained 756+1,890 score records, a condition-level ledger, source SHA-256 references, and a no-raw-data verification command. This is a bounded derived-score check, **not** a new source-data rerun or complete study-wide replication. The historical R7/R10, MR1/MR2 and earlier outputs below are preserved. Journal submission and permanent DOI remain pending.
 
 Quick check (from repository root): `python paper1_machines_2026/56ha_v13_ep2/verify_derived.py`.
